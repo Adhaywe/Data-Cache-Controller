@@ -31,7 +31,7 @@ module membank3 (
         mem[3] = 32'h000000E0;
     end
 
-    always @(posedge clk or negedge rst) begin // @suppress "Behavior-specific 'always' should be used instead of general purpose 'always'"
+    always @(posedge clk or negedge rst) begin 
         if (~rst)
             mem[addr] <= 0;
         else if (write_en)

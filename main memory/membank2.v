@@ -30,7 +30,7 @@ module membank2 (
         mem[3] = 32'h000000D0;
     end
 
-    always @(posedge clk or negedge rst) begin // 
+    always @(posedge clk or negedge rst) begin 
         if (~rst)
             mem[addr] <= 0;
         else if (write_en)

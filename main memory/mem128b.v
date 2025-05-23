@@ -72,7 +72,7 @@ localparam   LAT = 3;
 reg    [1:0] count;
 reg          r_ready;
 
-always @(posedge clk or negedge rst) begin // @suppress "Behavior-specific 'always' should be used instead of general purpose 'always'"
+always @(posedge clk or negedge rst) begin
         if (~rst || clr) begin
             count <= 0;
             r_ready <= 1'b1;

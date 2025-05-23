@@ -62,7 +62,7 @@ reg hit;
 
 integer i;
 
-always @ (posedge clk or negedge rst) begin // @suppress "Behavior-specific 'always' should be used instead of general purpose 'always'"
+always @ (posedge clk or negedge rst) begin 
     if (~rst || flush) begin
         for (i = 0; i < CACHE_LINES; i = i + 1) begin
             valid_array[i] <= 0;

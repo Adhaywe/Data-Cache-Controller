@@ -52,7 +52,7 @@ reg [31:0] r_read_data;
 
 integer i;
 
-always @(posedge clk or negedge rst) begin // @suppress "Behavior-specific 'always' should be used instead of general purpose 'always'"
+always @(posedge clk or negedge rst) begin 
     if (~rst || clr) begin
         for (i = 0; i < CACHE_LINES; i = i + 1) begin
             data_array[i] <= 0;
