@@ -7,7 +7,8 @@ interfacing with an n-cycle latency main memory.
 - Direct Mapped, Write Through policy.
 - Cache block size is 16 bytes / 128 bits.
 
-- Data and address buses are 32 bits.
+- Processor data and address buses are 32 bits.
+- Memory contains four 32-bit memory banks.
 
 ## Architecture
 <img width="779" alt="Image" src="https://github.com/user-attachments/assets/6465912d-cb4f-4dd0-8515-33e92b48f211" />
