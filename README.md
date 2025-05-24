@@ -7,7 +7,7 @@ interfacing with an n-cycle latency main memory.
 - Direct Mapped.
 - Write Through,no write-allocate policy.
 - Cache block size is 16 bytes / 128 bits.
-- 4 cache line (parameterized)
+- 4 cache lines (parameterized).
 - Processor data and address buses are 32 bits.
 - Interleaved Memory that contains four 32-bit memory banks.
 
