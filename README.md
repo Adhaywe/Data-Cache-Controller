@@ -1,5 +1,6 @@
 # Data Cache and Controller
-
+The project shows the design and implementation of a direct-mapped write-through cache and controller in verilog for a single-cycle processor system,
+interfacing with an n-cycle latency main memory.
 
 ## Specifications
 
