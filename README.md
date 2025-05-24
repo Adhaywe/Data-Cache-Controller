@@ -1,4 +1,4 @@
-# Implementation of a data cache and its controller
+# Data Cache and Controller
 
 
 ## Specifications
